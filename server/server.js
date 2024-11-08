@@ -38,10 +38,10 @@ app.use(bodyParser.json());
 app.use(cookieParser());
 
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'auth_db2',
-  password: '1',
+  user: 'user',
+  host: 'db',
+  database: 'mydatabase',
+  password: 'password',
   port: 5432,
 });
 
